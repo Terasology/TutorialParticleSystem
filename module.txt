@@ -1,0 +1,9 @@
+{
+    "id" : "TutorialParticleSystem",
+    "version" : "0.1.0-SNAPSHOT",
+    "author" : "",
+    "displayName" : "TutorialParticleSystem",
+    "description" : "",
+    "dependencies" : [],
+    "serverSideOnly" : false
+}
