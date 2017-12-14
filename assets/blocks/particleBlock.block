@@ -1,0 +1,8 @@
+{
+  "displayName": "Particle Block",
+  "categories": ["misc"],
+  "hardness": 1,
+  "entity": {
+    "prefab": "particleBlock"
+  }
+}

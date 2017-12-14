@@ -1,0 +1,29 @@
+{
+  "location": {},
+  "particleDataSprite": {
+    "texture": "TutorialParticleSystem:fx_smoke"
+  },
+  "energyRangeGenerator": {
+    "minEnergy": 1,
+    "maxEnergy": 2
+  },
+  "scaleRangeGenerator": {
+    "minScale": [1, 1, 1],
+    "maxScale": [1.5, 1.5, 1.5]
+  },
+  "velocityRangeGenerator": {
+    "minVelocity": [0, 1, 0],
+    "maxVelocity": [0, 2, 0]
+  },
+  "velocityAffector": {},
+  "particleEmitter": {
+    "lifeTime": 10,
+    "spawnRateMax": 10,
+    "spawnRateMin": 10,
+    "particleSpawnsLeft": 100,
+    "maxParticles": 75,
+    "particleCollision": false,
+    "destroyEntityWhenDead": true
+  },
+  "network": {}
+}
