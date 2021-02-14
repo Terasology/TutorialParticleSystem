@@ -22,9 +22,7 @@ public class EmitParticleOnActivateSystem extends BaseComponentSystem{
 
     @ReceiveEvent(components = {EmitParticleOnActivateComponent.class, BlockComponent.class})
     public void onActivate(ActivateEvent event, EntityRef entity) {
-        Vector3f loc = entity.getComponent(LocationComponent.class).getWorldPosition(new Vector3f());
-        Vector3f locEmitter = loc;
-        locEmitter.set(loc.x(), loc.y() + 1, loc.z()); // Set the location one block above the activated block
+        Vector3f locEmitter = entity.getComponent(LocationComponent.class).getWorldPosition(new Vector3f()).add(0, 1, 0);
         EntityBuilder builder = entityManager.newBuilder("TutorialParticleSystem:smoke");
         builder.getComponent(LocationComponent.class).setWorldPosition(locEmitter);
         builder.build(); // Spawn the particle emitter
