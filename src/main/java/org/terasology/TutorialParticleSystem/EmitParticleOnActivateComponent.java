@@ -15,7 +15,7 @@
  */
 package org.terasology.TutorialParticleSystem;
 
-import org.terasology.entitySystem.Component;
+import org.terasology.engine.entitySystem.Component;
 
 public class EmitParticleOnActivateComponent implements Component {
 
