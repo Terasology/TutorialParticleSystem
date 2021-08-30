@@ -15,8 +15,9 @@
  */
 package org.terasology.TutorialParticleSystem;
 
-import org.terasology.engine.entitySystem.Component;
 
-public class EmitParticleOnActivateComponent implements Component {
+import org.terasology.gestalt.entitysystem.component.EmptyComponent;
+
+public class EmitParticleOnActivateComponent extends EmptyComponent<EmitParticleOnActivateComponent> {
 
 }
